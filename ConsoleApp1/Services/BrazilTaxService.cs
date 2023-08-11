@@ -2,7 +2,7 @@
 
 namespace ConsoleApp1.Services
 {
-    internal class BrazilTaxService
+    internal class BrazilTaxService : ITaxservice
     {
         public double Tax(double amount)
         {
